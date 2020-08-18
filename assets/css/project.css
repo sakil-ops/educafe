@@ -1,0 +1,532 @@
+/* global class start*/ 
+
+*{margin:0px;
+  padding:0px;
+  box-sizing:border-box
+}
+/* global class end*/
+
+/* common class start */
+li{list-style-type:none}
+a{text-decoration:none !important}
+.first_color{
+	color: #56ab2f;
+}
+.first_bg_color{
+	background-color: #56ab2f;
+}
+
+
+/* common class end */
+
+/*  header design start*/
+#header_top {
+    background: #56ab2f;
+    height: 8vh;
+	z-index:22222;
+	position: sticky;
+	top: -60px;
+	
+}
+#header_top li {
+    margin: 5px 10px;
+    line-height: 40px;
+    font-size: 14px;
+}
+#header_top li a{color: white;}
+
+.login li {
+    margin: 5px 2px !important;
+	
+
+}
+.login li a{color:white;
+            font-weight:bold
+}
+.login li a:hover{color:black !important}
+
+/*  header design end*/
+
+/*  nav design start*/
+.nav-link{color:black !important;
+                       font-weight:bold;
+					   margin-left:20px;
+					   line-height:10px
+}
+.nav2{z-index:1111;
+	position: sticky;
+	top: 0 !important;
+	background: rgba(254, 255, 255, .9);
+}
+.navbar{z-index:1111}
+.nav-item a:hover{color:green !important}
+.nav-item a:focus{color:green !important}
+.navbar-nav{margin-left:auto}
+.active{color:green !important}
+
+.cart{position:relative;
+      right:13px;
+	  bottom:10px
+}
+/*  nav design end*/
+/*  first slider and text design start */
+.slide-text{font-weight:bold}
+.owl-carousel{
+	position: relative;
+}
+.owl-carousel .owl-nav button.owl-prev{
+	position: absolute;
+	top: 45%;
+	left: -5%;
+}
+.owl-carousel .owl-nav button.owl-next{
+	position: absolute;
+	top: 45%;
+	right: -5%;
+}
+.font_35{
+	font-size: 35px;
+	color: #56ab2f;
+}
+.owl-theme .owl-nav [class*=owl-]:hover{
+	border: none;
+	background: none;
+	color: black;
+}
+.owl-theme .owl-nav [class*=owl-]:focus{
+	border: none;
+	background: none;
+	color: black;
+}
+.slider{
+	margin-top: -120px;
+	z-index: -1111;
+}
+.btn {
+	border-radius: 0px !important;
+	font-weight: bold;
+}
+
+.carousel-caption {
+	width: 450px;
+	height: 300px;
+    position: absolute; 
+    bottom: 25%; 
+    left: 55%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+}
+.btn-success-color{
+	color: ;
+}
+/*  first slider and text design end */
+
+/*  principle speech design start */
+.about-div{margin-left:8%;
+           margin-top:90px;
+		    
+}
+
+.col-md-5 h2{font-weight:bold;
+            margin-bottom: 30px;
+}
+
+
+.col-md-5 p{text-align:justify;
+            line-height: 30px;
+            margin-bottom: 50px;
+}
+#about_right{background-image: url(../image/campus.png);
+             background-repeat:no-repeat;
+             height: 90%;
+	         width: 100%;
+			 margin-left:18%               
+}
+#about_right img{width:40%;
+              height:83%;
+			  margin-top: 15%;
+              margin-left: -10%;
+}
+/*  principle speech design start */
+
+/*  course slider design start */
+.course {
+    padding-top: 80px;
+}
+.course_title {
+    text-align: center;
+	margin-bottom: 60px;
+}
+.course_title h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.card-body {
+    text-align: center;
+	color: black;
+}
+.card-body h4{
+	font-weight:bold;
+}
+.text-green{
+	color:green;
+	font-weight:bold;
+	
+}
+.card_border {
+    border: 1px solid #cfcfcf;
+    width: 120px;
+    margin: auto;
+    margin-bottom: 15px;
+	margin-bottom: -35px;
+}
+.card-text.text_card {
+    margin-top: 60px;
+}
+.card-footer{
+    border: 1px solid #d2d2d2;
+    width: 100%;
+    padding: 5px !important;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.card-footer:nth-child(1) {
+    border-left: none;
+    
+}
+.card-footer:nth-child(2) {
+    border-left: none;
+    margin: 0px 20px;
+	background: #56ab2f;
+	
+}
+.card-footer:nth-child(2) a{
+	color:white;
+	text-transform:uppercase
+}
+.card-footer:nth-child(3) {
+    border-left: none;
+	border-right: none;
+}
+.card-ul{position:relative;
+         top:37px
+}
+.course_btn a {
+    border: 1px solid #56ab2f;
+    color: black;
+    font-weight: 700;
+    padding: 15px 20px;
+}
+.course_btn {
+    text-align: center;
+    margin-top: 85px;
+}
+.course_btn a:hover{
+	background:black;
+	color:white
+
+}
+/*  course slider design end */
+/*  information section design start */
+.info {
+    margin-top: 80px;
+    text-align: center;
+}
+.info_bg {
+    background: url(../image/section_bg.png);
+    padding-top: 130px;
+	color: white;
+	padding-bottom: 100px;
+	background-attachment:fixed;
+}
+.facts {
+    text-align: justify;
+    position: relative;
+    top: -40px;
+}
+.facts h2 {
+    font-weight: 600;
+}
+.facts a {
+    color: white;
+    border: 1px solid;
+    padding: 10px 25px;
+    margin-top: 20px !important;
+    position: relative;
+    top: 25px;
+	font-weight: bold;
+}
+.facts a:hover{background:red}
+.info_span {
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    left: 6px;
+}
+/*  information section design end */
+/*  news section design start */
+.news {
+    margin-top: 80px;
+}
+.news_title {
+    text-align: center;
+    padding-bottom: 60px;
+}  
+.news_title h2 {
+    font-weight: bold;
+}
+.news_title p {
+    font-size: 14px;
+}
+#news_left_body_text {
+    line-height: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+}
+.no_bold{font-weight: 400 !important}
+div#news_left_body {
+    text-align: justify;
+    padding-top: 40px;
+}
+#news_left_body h3 {
+    font-weight: bold;
+}
+span.news_span {
+    color: green;
+    font-weight: bold;
+}
+#news_left_body a{
+	color:black;
+font-weight:bold;}
+#news_right_body {
+    text-align: justify;
+    
+    margin-top: -10px;
+}
+#news_right_body h3{font-size:1.5rem}
+#news_right_body p {
+    margin-bottom: 10px;
+    
+	font-size:15px;
+}
+#news_right_body a{
+	color:green;
+	font-weight:bold
+}
+.row1 {
+    margin-bottom: 15px;
+    border: 1px solid #cfcfcf;
+}
+.row2 {
+    border: 1px solid #cfcfcf;
+	
+}
+.custom_card_img {
+
+    width: 100%;
+    height: 280px;
+
+}
+/*  news section design end */
+/*  student feedback design start */
+section.feedback {
+    background: url(../image/white_bg.png);
+    margin-top: 95px;
+    text-align: center;
+    padding-top: 65px;
+	padding-bottom: 90px;
+}
+.feedback_title h1 {
+    margin-bottom: 20px;
+}
+.custom_image{
+	height: 100px !important;
+	width: 100px !important;
+	z-index: 1111;
+
+}
+.z_calsss{
+	z-index: 1111;
+}
+.custom_test_card{
+	padding: 20px !important;
+	padding-top: 80px !important;
+
+}
+.custom_card_main{
+	margin-top: -50px;
+	z-index: -1111;
+	border: 20px solid transparent;
+	padding: 15px;
+	border: black 50% round;
+	border-top: none !important;
+}
+.feedback_title {
+    padding-bottom: 50px;
+}
+/*  student feedback design end */
+/*  sign up section design start */
+.email_option {
+    background: green;
+    text-align: center;
+    padding-top: 50px;
+	color: white;
+	padding-bottom:50px
+}
+.email_option h6 {
+    padding: 10px 0px;
+}
+input[type="email"] {
+    padding: 8px;
+    background: transparent;
+    border: 1px solid white;
+    width: 300px;
+	
+}
+.email_option div button {
+    padding: 8px 20px;
+}
+/*  sign up section design end */
+/*  footer design start */
+footer.footer {
+    background: black;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+.footer a{color:white}
+a.f_logo img {
+    margin-bottom: 30px;
+}
+.footer h5 {
+    margin-bottom: 44px;
+}
+
+.copyright {
+    border-top: 2px solid green;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.icon li {
+    padding: 10px;
+    border: 1px solid;
+    margin: 10px;
+    border-radius: 76%;
+    margin-top: -7px;
+}
+.col-md-4.card_item {
+    margin-bottom: 60px;
+}
+.row.course_item {
+    margin-top: 95px;
+}
+/*  footer design end */
+section.course_bg {
+    background:linear-gradient(rgba(1,1,1,1),rgba(0,0,0,0)), url(../image/course_bg.png);
+    text-align: center;
+    padding: 87px;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+a.h_link {
+    color: white;
+    font-weight: bold;
+}
+a.c_link {
+    color: green;
+    font-weight: bold;
+}
+section.all_course {
+    padding-top: 60px;
+	padding-bottom: 80px;
+}
+.form_div {
+    margin-top: 10px;
+	
+}
+select#sort {
+    padding: 10px 20px;
+}
+select#select {
+    padding: 10px 20px;
+}
+.teacher{margin-bottom:50px;
+         margin-top:50px;
+		 text-align:center
+}
+.teacher_card li {
+    padding: 10px;
+    border: 1px solid;
+    margin: 0px 2px;
+    border-radius: 76%;
+}
+.teacher_card{padding:10px}
+.next_prev {
+    margin-top: 50px;
+}
+.page-link {
+    color:green;
+}
+li.page-item {
+    margin: 5px;
+    font-size: 20px;
+	color:green !important;
+	font-weight:bold
+}
+.container.error_contain {
+    padding: 100px 50px;
+}
+.error_content h1 {
+    font-size: 105px;
+	font-weight:bold;
+}
+.error_p1{color:green}
+.error_content a {
+    color: black;
+    border: 1px solid green;
+    padding: 10px 30px;
+    margin-top: 16px;
+    display: inline-block;
+}
+img.error_img {
+    margin-top: 61px;
+}
+section.contact_section,.course_details {
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+.contact_head,.course_head {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.instructor_media li {
+    border: 1px solid;
+    margin: 1px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+/*  media quary start */
+@media only screen and (max-width:767px){
+	                   .h_span{display:none }
+	                   #about_right{ margin-left: 0px !important;}
+					   .col-md-5 p{margin-right:20px}
+					   .facts {text-align: center;}
+                        .course_head{flex-direction:column;
+						            text-align:center!important;
+						}
+						
+						.copyright{text-align:center}
+						.copy{margin-bottom:30px}
+						.icon{margin-top:30px}
+						
+
+
+}
+@media only screen and (max-width:767px){}
+/*  media quary end */
